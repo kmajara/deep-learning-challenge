@@ -25,4 +25,6 @@
         What steps did you take in your attempts to increase model performance?
         in addtion to above, i cut out more application types so only types greater than 1000 were included, to reduce the noise. I also addeda few more classification counts by considering onkly above 700 and not only above 1000 like before. I also reduced the number of features. 
 
-    Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+    Summary: The initial neural network model achieved a training accuract of accuracy of 72%. While the target accurcy of 75% was not met, the model can be used (with caution) for prediction of succesful applications.
+
+Recommendations for further optimization include increasing the model complexity by adding more layers and neurons subject to computing power and resources, further creating custom features, binning, etc. Trying different optimizers and their associated customizations features such as the ability to fine tune out via Adam learning rate, and using diferent loss functions. 
